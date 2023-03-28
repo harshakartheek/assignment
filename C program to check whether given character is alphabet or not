@@ -1,13 +1,14 @@
+
 #include <stdio.h>
-#include <conio.h>
-int main()
+invclude <conio.h>
+int main() 
 {
-	int n;
-	printf("Kartheek enter n value:\n");
-	scanf("%d",&n);
-    if(n%5==0&&n%11==0)
-    printf("it is divided by 5 and 11\n");
-    else
-    printf("it is not divided by 5 and 11\n");
-    return 0;
+char c;
+printf("Kartheek Enter a character: ");
+scanf("%c", &c);
+if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+printf("%c is an alphabet.", c);
+else
+printf("%c is not an alphabet.", c);
+return 0;
 }
